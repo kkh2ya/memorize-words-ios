@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181574D4212116BC00E082A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181574D3212116BC00E082A3 /* AppDelegate.swift */; };
+		181574D6212116BC00E082A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181574D5212116BC00E082A3 /* ViewController.swift */; };
+		181574D9212116BC00E082A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181574D7212116BC00E082A3 /* Main.storyboard */; };
+		181574DB212116C600E082A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181574DA212116C600E082A3 /* Assets.xcassets */; };
+		181574DE212116C600E082A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181574DC212116C600E082A3 /* LaunchScreen.storyboard */; };
+		181574E621218B5A00E082A3 /* MemorizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181574E521218B5A00E082A3 /* MemorizeViewController.swift */; };
+		181574E82121A0EB00E082A3 /* QuizChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181574E72121A0EB00E082A3 /* QuizChoiceViewController.swift */; };
+		181574EA2121AC4600E082A3 /* QuizWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181574E92121AC4600E082A3 /* QuizWriteViewController.swift */; };
+		181574EC2121AC5300E082A3 /* QuizFillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181574EB2121AC5300E082A3 /* QuizFillViewController.swift */; };
+		1867512021226FD7008027BD /* WordListSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867511F21226FD7008027BD /* WordListSingleton.swift */; };
+		186F942B213BE21B00DE2C59 /* UpdateTextViewVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F942A213BE21B00DE2C59 /* UpdateTextViewVar.swift */; };
+		18B49746213E976300544E8F /* RealmWordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B49745213E976300544E8F /* RealmWordList.swift */; };
+		18D6ED7A2123AFF0008DACD5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6ED792123AFF0008DACD5 /* RegisterViewController.swift */; };
+		18D6ED7C2123B262008DACD5 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6ED7B2123B262008DACD5 /* ListViewController.swift */; };
+		A7E0FAFAD2D3E4627C1274EC /* Pods_MemorizeEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A118D61BCC98860E5606450B /* Pods_MemorizeEnglish.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181574D0212116BC00E082A3 /* MemorizeEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181574D3212116BC00E082A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181574D5212116BC00E082A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181574D8212116BC00E082A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181574DA212116C600E082A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181574DD212116C600E082A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181574DF212116C600E082A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181574E521218B5A00E082A3 /* MemorizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeViewController.swift; sourceTree = "<group>"; };
+		181574E72121A0EB00E082A3 /* QuizChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizChoiceViewController.swift; sourceTree = "<group>"; };
+		181574E92121AC4600E082A3 /* QuizWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWriteViewController.swift; sourceTree = "<group>"; };
+		181574EB2121AC5300E082A3 /* QuizFillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFillViewController.swift; sourceTree = "<group>"; };
+		1867511F21226FD7008027BD /* WordListSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListSingleton.swift; sourceTree = "<group>"; };
+		186F942A213BE21B00DE2C59 /* UpdateTextViewVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTextViewVar.swift; sourceTree = "<group>"; };
+		18B49745213E976300544E8F /* RealmWordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmWordList.swift; sourceTree = "<group>"; };
+		18D6ED792123AFF0008DACD5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		18D6ED7B2123B262008DACD5 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5D059309CB996283926CC458 /* Pods-MemorizeEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemorizeEnglish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemorizeEnglish/Pods-MemorizeEnglish.debug.xcconfig"; sourceTree = "<group>"; };
+		A118D61BCC98860E5606450B /* Pods_MemorizeEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemorizeEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E2E5AEB35C6D66143F8267 /* Pods-MemorizeEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemorizeEnglish.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemorizeEnglish/Pods-MemorizeEnglish.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181574CD212116BC00E082A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E0FAFAD2D3E4627C1274EC /* Pods_MemorizeEnglish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181574C7212116BC00E082A3 = {
+			isa = PBXGroup;
+			children = (
+				181574D2212116BC00E082A3 /* MemorizeEnglish */,
+				181574D1212116BC00E082A3 /* Products */,
+				788697C1C30821BF48408C3E /* Pods */,
+				DBE9D998870CF9243D47AE37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181574D1212116BC00E082A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181574D0212116BC00E082A3 /* MemorizeEnglish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181574D2212116BC00E082A3 /* MemorizeEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				184750F021414D0B003CBC9B /* DB */,
+				184750EE21414C67003CBC9B /* Model */,
+				184750EF21414CB8003CBC9B /* Controller */,
+				181574D3212116BC00E082A3 /* AppDelegate.swift */,
+				181574D7212116BC00E082A3 /* Main.storyboard */,
+				181574DA212116C600E082A3 /* Assets.xcassets */,
+				181574DC212116C600E082A3 /* LaunchScreen.storyboard */,
+				181574DF212116C600E082A3 /* Info.plist */,
+			);
+			path = MemorizeEnglish;
+			sourceTree = "<group>";
+		};
+		184750EE21414C67003CBC9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1867511F21226FD7008027BD /* WordListSingleton.swift */,
+				186F942A213BE21B00DE2C59 /* UpdateTextViewVar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184750EF21414CB8003CBC9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181574D5212116BC00E082A3 /* ViewController.swift */,
+				181574E521218B5A00E082A3 /* MemorizeViewController.swift */,
+				181574E72121A0EB00E082A3 /* QuizChoiceViewController.swift */,
+				181574E92121AC4600E082A3 /* QuizWriteViewController.swift */,
+				181574EB2121AC5300E082A3 /* QuizFillViewController.swift */,
+				18D6ED792123AFF0008DACD5 /* RegisterViewController.swift */,
+				18D6ED7B2123B262008DACD5 /* ListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184750F021414D0B003CBC9B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				18B49745213E976300544E8F /* RealmWordList.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		788697C1C30821BF48408C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D059309CB996283926CC458 /* Pods-MemorizeEnglish.debug.xcconfig */,
+				F7E2E5AEB35C6D66143F8267 /* Pods-MemorizeEnglish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBE9D998870CF9243D47AE37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A118D61BCC98860E5606450B /* Pods_MemorizeEnglish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181574CF212116BC00E082A3 /* MemorizeEnglish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181574E2212116C600E082A3 /* Build configuration list for PBXNativeTarget "MemorizeEnglish" */;
+			buildPhases = (
+				7AD614BC7E13794016717801 /* [CP] Check Pods Manifest.lock */,
+				181574CC212116BC00E082A3 /* Sources */,
+				181574CD212116BC00E082A3 /* Frameworks */,
+				181574CE212116BC00E082A3 /* Resources */,
+				D14D6DF42A606CE0F3A760BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemorizeEnglish;
+			productName = MemorizeEnglish;
+			productReference = 181574D0212116BC00E082A3 /* MemorizeEnglish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181574C8212116BC00E082A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Chris Rashad Kim";
+				TargetAttributes = {
+					181574CF212116BC00E082A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 181574CB212116BC00E082A3 /* Build configuration list for PBXProject "MemorizeEnglish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181574C7212116BC00E082A3;
+			productRefGroup = 181574D1212116BC00E082A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181574CF212116BC00E082A3 /* MemorizeEnglish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181574CE212116BC00E082A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181574DE212116C600E082A3 /* LaunchScreen.storyboard in Resources */,
+				181574DB212116C600E082A3 /* Assets.xcassets in Resources */,
+				181574D9212116BC00E082A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AD614BC7E13794016717801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemorizeEnglish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14D6DF42A606CE0F3A760BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MemorizeEnglish/Pods-MemorizeEnglish-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemorizeEnglish/Pods-MemorizeEnglish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181574CC212116BC00E082A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6ED7A2123AFF0008DACD5 /* RegisterViewController.swift in Sources */,
+				181574EA2121AC4600E082A3 /* QuizWriteViewController.swift in Sources */,
+				186F942B213BE21B00DE2C59 /* UpdateTextViewVar.swift in Sources */,
+				181574E82121A0EB00E082A3 /* QuizChoiceViewController.swift in Sources */,
+				181574EC2121AC5300E082A3 /* QuizFillViewController.swift in Sources */,
+				18D6ED7C2123B262008DACD5 /* ListViewController.swift in Sources */,
+				181574D6212116BC00E082A3 /* ViewController.swift in Sources */,
+				181574E621218B5A00E082A3 /* MemorizeViewController.swift in Sources */,
+				1867512021226FD7008027BD /* WordListSingleton.swift in Sources */,
+				18B49746213E976300544E8F /* RealmWordList.swift in Sources */,
+				181574D4212116BC00E082A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181574D7212116BC00E082A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181574D8212116BC00E082A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181574DC212116C600E082A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181574DD212116C600E082A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181574E0212116C600E082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181574E1212116C600E082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181574E3212116C600E082A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D059309CB996283926CC458 /* Pods-MemorizeEnglish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemorizeEnglish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.MemorizeEnglish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181574E4212116C600E082A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E2E5AEB35C6D66143F8267 /* Pods-MemorizeEnglish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemorizeEnglish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.MemorizeEnglish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181574CB212116BC00E082A3 /* Build configuration list for PBXProject "MemorizeEnglish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181574E0212116C600E082A3 /* Debug */,
+				181574E1212116C600E082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181574E2212116C600E082A3 /* Build configuration list for PBXNativeTarget "MemorizeEnglish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181574E3212116C600E082A3 /* Debug */,
+				181574E4212116C600E082A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181574C8212116BC00E082A3 /* Project object */;
+}
