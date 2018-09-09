@@ -1,4 +1,4 @@
 Language : Swift  
-Server : Mac OS  
+Server : macOS  
 Database : Realm  
 Tool : Xcode  
